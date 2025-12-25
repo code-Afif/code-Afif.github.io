@@ -160,3 +160,36 @@ body{
     font-size: 17px;
 }
 
+.prod-grid{
+    display: grid;
+    grid-template-columns: repeat(2,945px);
+    grid-template-rows: repeat(3,615px);
+    gap: 15px;
+    
+}
+
+.card-1{
+    text-align: center;
+    background-image: url(./assets/gift-card.jpg);
+    background-position: center;
+}
+
+.gift-card{
+    font-size: 40px;
+}
+
+.card-2{
+    text-align: center;
+    background-image: url(./assets/ipad.jpg);
+    background-position: center;
+    
+}
+
+.ipad{
+    font-size: 40px;
+}
+
+.content{
+    font-size: 20px;
+}
+
