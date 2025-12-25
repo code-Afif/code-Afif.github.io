@@ -6,19 +6,26 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
-    position: relative;
+    position: fixed;
     z-index:1000;
+    width: 100%;
+    
 }
+
 body{
+    font-family: -apple-system, BlinkMacSystemFont,"SF Pro Display", "Segoe UI",Roboto, Helvetica, Arial, sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
+
 }
+
 .logo{
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 .menu ul{
     display: flex;
     align-items: center;
@@ -26,28 +33,40 @@ body{
     list-style: none;
 
 }
+
 .menu-options{
     font-size: 0.8em;
     font-style: normal;
     height: 20px;
     cursor: pointer;
 }
+
 .icon{
     cursor: pointer;
 }
+
 .bag{
     position: relative;
-    height: 690px;
+    height: 730px;
     overflow: hidden;
 }
+
 .bag-content{
+    padding-top: 50px;
     height: 690px;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont,"SF Pro Display", "Segoe UI",Roboto, Helvetica, Arial, sans-serif;
     font-size:xx-large;
     position: relative;
     z-index: 2;
+
 }
+
+.bag-content p{
+    margin-top: 0px;
+    font-size: x-large;
+}
+
 .bg-video{
     position: absolute;
     top: 50%;
@@ -61,14 +80,17 @@ body{
 
     z-index: 1;
 }
+
 .headline{
     margin-bottom: 0px;
     margin-top: 30px;
 }
+
 .subhead{
     font-size: x-large;
 }
-.button{
+
+.button-bag{
     background-color: #0071e3;
     color: white;
     padding: 12px;
@@ -78,4 +100,38 @@ body{
     padding-left: 23px;
     padding-right: 23px;
     
+}
+
+.iphone{
+    background-image: url(./assets/iPhone.jpg);
+    height: 692px;
+    background-position: center;
+    
+}
+
+.iphone-content{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.button-iphone{
+    background-color: #0071e3;
+    color: white;
+    padding: 12px;
+    border-radius: 40px;
+    font-size: 17px;
+    border: 0px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.shop-iphone{
+    background-color: white;
+    border: #0071e3 solid 1px;
+    border-radius: 40px;
+    font-size: 17px;
+    padding: 12px;
+    color: #0071e3;
+    padding-left: 23px;
+    padding-right: 23px;
 }
