@@ -168,10 +168,10 @@ body{
 
 .prod-grid{
     display: grid;
-    grid-template-columns: repeat(2,945px);
+    grid-template-columns: repeat(2,minmax(0,1fr));
     grid-template-rows: repeat(3,615px);
     gap: 15px;
-    
+    max-width: 100%;
 }
 
 .card-1{
