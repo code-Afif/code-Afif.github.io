@@ -147,6 +147,7 @@ body{
     background-image: url(./assets/airpods-3-pro.jpg);    
     height: 800px;
     background-position: center;
+    background-size: cover;
 }
 
 .airpods-content{
@@ -267,7 +268,7 @@ body{
     }
 
     .airpods{
-        background-image: url(./assets/airpods-mobile-preview.jpeg);
+        background-image: url(./assets/airpods-small.jpg);
         background-size:cover;
 
     }
