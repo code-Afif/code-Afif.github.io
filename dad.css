@@ -170,7 +170,7 @@ body{
 .prod-grid{
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
-    grid-template-rows: repeat(2,615px);
+    grid-template-rows: repeat(3,615px);
     gap: 15px;
     max-width: 100%;
 }
@@ -355,9 +355,6 @@ body{
     white-space:nowrap;
 }
 
-.div span{
-    color: #ffffff;
-}
 
 @media (max-width:768px) {
     .iphone{
@@ -423,10 +420,6 @@ body{
     .card-4{
         padding-bottom: 400px;
     }       
-
-    .card-3{
-        padding-bottom: 400px;
-    }
     
     .footer-inner{
         padding: 32px 12px 20px;
