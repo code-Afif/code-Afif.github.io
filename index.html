@@ -1,275 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!--   Name : Afif Khan 
+       Roll No.: 2025B03110167
+       Branch : ECE
+       Section : 1 -->
+  <body>
     <nav class="navbar">
-        <div class="logo">
-            <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
-                <path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path>
+      <div class="logo">
+        <svg
+          height="44"
+          viewBox="0 0 14 44"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"
+          ></path>
+        </svg>
+      </div>
+      <input type="checkbox" id="menu-toggle" />
+      <div class="menu">
+        <ul>
+          <li class="menu-options">Store</li>
+          <li class="menu-options">Mac</li>
+          <li class="menu-options">iPad</li>
+          <li class="menu-options">iPhone</li>
+          <li class="menu-options">Watch</li>
+          <li class="menu-options">Vision</li>
+          <li class="menu-options">AirPods</li>
+          <li class="menu-options">TV & Home</li>
+          <li class="menu-options">Entertainment</li>
+          <li class="menu-options">Accessories</li>
+          <li class="menu-options">Support</li>
+        </ul>
+      </div>
+      <div class="other-logo">
+        <ul>
+          <li class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15px"
+              height="44px"
+              viewBox="0 0 15 44"
+            >
+              <path
+                d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"
+              ></path>
             </svg>
-        </div>
-        <input type="checkbox" id="menu-toggle">
-        <div class="menu">
-            <ul>
-                <li class="menu-options">Store</li>
-                <li class="menu-options">Mac</li>
-                <li class="menu-options">iPad</li>
-                <li class="menu-options">iPhone</li>
-                <li class="menu-options">Watch</li>
-                <li class="menu-options">Vision</li>
-                <li class="menu-options">AirPods</li>
-                <li class="menu-options">TV & Home</li>
-                <li class="menu-options">Entertainment</li>
-                <li class="menu-options">Accessories</li>
-                <li class="menu-options">Support</li>
-            </ul>
-        </div>
-        <div class="other-logo">
-            <ul>
-                <li class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
-                        <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
-                    </svg>
-                </li>
+          </li>
 
-                <li class="icon">
-                    <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg">
-                        <path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path>
-                    </svg>
-                </li>
+          <li class="icon">
+            <svg
+              height="44"
+              viewBox="0 0 14 44"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"
+              ></path>
+            </svg>
+          </li>
 
-                <label for="menu-toggle" class="ham">
-                    <svg width="18" height="44" viewBox="0 0 18 44" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path d="M2 18h14M2 26h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                    </svg>
-                </label>
-            </ul>
-        </div>
+          <label for="menu-toggle" class="ham">
+            <svg
+              width="18"
+              height="44"
+              viewBox="0 0 18 44"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M2 18h14M2 26h14"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </label>
+        </ul>
+      </div>
     </nav>
     <div class="bag">
-        <video src="./assets/largetall.mp4" class="bg-video" autoplay muted playsinline preload="auto"></video>
+      <video
+        src="./assets/largetall.mp4"
+        class="bg-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+      ></video>
 
-        <div class="bag-content">
-            <h2 class="headline">Wrapping up this special season.</h2>
-            <p class="subhead">There's still time to make their holiday one of kind.</p>
-            <button class="button-bag">Shop gifts</button>
-        </div>
-
+      <div class="bag-content">
+        <h2 class="headline">Wrapping up this special season.</h2>
+        <p class="subhead">
+          There's still time to make their holiday one of kind.
+        </p>
+        <button class="button-bag">Shop gifts</button>
+      </div>
     </div>
 
-    <br>
+    <br />
 
     <div class="iphone">
-        <div class="iphone-content">
-            <h2 class="headline">iPhone</h2>
-            <p class="subhead">Say hello to the latest generation of iPhone</p>
-            <button class="button-learn-more">Learn more</button>
-            <button class="shop-iphone">Shop iPhone</button>
-        </div>
-
+      <div class="iphone-content">
+        <h2 class="headline">iPhone</h2>
+        <p class="subhead">Say hello to the latest generation of iPhone</p>
+        <button class="button-learn-more">Learn more</button>
+        <button class="shop-iphone">Shop iPhone</button>
+      </div>
     </div>
 
-    <br>
+    <br />
 
     <div class="airpods">
-        <div class="airpods-content">
-            <h2 class="headline">AirPods Pro 3</h2>
-            <p class="subhead">The world's best in-ear Active Noise Cancellation.</p>
-            <button class="button-learn-more">Learn more</button>
-            <button class="button-buy">Buy</button>
-        </div>
+      <div class="airpods-content">
+        <h2 class="headline">AirPods Pro 3</h2>
+        <p class="subhead">
+          The world's best in-ear Active Noise Cancellation.
+        </p>
+        <button class="button-learn-more">Learn more</button>
+        <button class="button-buy">Buy</button>
+      </div>
     </div>
 
-    <br>
+    <br />
 
     <div class="prod-grid">
+      <div class="card-1">
+        <h3 class="gift-card">Apple Gift Card</h3>
+        <p class="content">Let them spend the holidays however they like</p>
+        <button class="button-learn-more">Learn more</button>
+        <button class="button-buy">Buy</button>
+      </div>
 
-        <div class="card-1">
-            <h3 class="gift-card">Apple Gift Card</h3>
-            <p class="content">Let them spend the holidays however they like</p>
-            <button class="button-learn-more">Learn more</button>
-            <button class="button-buy">Buy</button>
-        </div>
+      <div class="card-2">
+        <h3 class="ipad">iPad</h3>
+        <p class="content">
+          Now with the speed of the A16 chip <br />
+          and double the starting storage
+        </p>
+        <button class="button-learn-more">Learn more</button>
+        <button class="button-buy">Buy</button>
+      </div>
 
-        <div class="card-2">
-            <h3 class="ipad">iPad</h3>
-            <p class="content">Now with the speed of the A16 chip <br> and double the starting storage</p>
-            <button class="button-learn-more">Learn more</button>
-            <button class="button-buy">Buy</button>
-        </div>
+      <div class="card-3">
+        <h3 class="macbook">MacBook Air</h3>
+        <p class="content">
+          Sky blue color. <br />
+          Sky high performance with M4
+        </p>
+        <button class="button-learn-more">Learn more</button>
+        <button class="button-buy">Buy</button>
+      </div>
 
-        <div class="card-3">
-            <h3 class="macbook">MacBook Air</h3>
-            <p class="content">Sky blue color. <br> Sky high performance with M4</p>
-            <button class="button-learn-more">Learn more</button>
-            <button class="button-buy">Buy</button>
-        </div>
-
-        <div class="card-4">
-            <h3 class="homepod">HomePod mini</h3>
-            <button class="button-learn-more">Learn more</button>
-            <button class="button-buy">Buy</button>
-        </div>
-
+      <div class="card-4">
+        <h3 class="homepod">HomePod mini</h3>
+        <button class="button-learn-more">Learn more</button>
+        <button class="button-buy">Buy</button>
+      </div>
     </div>
-    <br>
+    <br />
     <footer class="apple-footer">
-
-        <div class="footer-inner">
-
+      <div class="footer-inner">
         <div class="footer-notes">
-            <p>
-                1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device.
-                Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in
-                for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase,
-                or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the
-                description provided when estimate was made. Sales tax may be assessed on full value of a new device
-                purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this
-                information). Offer may not be available in all stores, and may vary between in-store and online trade-in.
-                Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse,
-                cancel, or limit quantity of any trade-in transaction for any reason. More details are available from
-                Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
-            </p>
-        
-                <p>
-                To access and use all Apple Card features and products available only to Apple Card users, you must add
-                Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS.
-                Apple Card is subject to credit approval, available only for qualifying applicants in the United States,
-                and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
-            </p>
-        
-            <p>
-                Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Goldman Sachs Bank USA
-                for Apple Card and Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank.
-            </p>
-        
-            <p>
-                If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about
-                Apple Card.
-            </p>
-        
-            <p>
-                Learn more about how Apple Card applications are evaluated at
-                <a href="" target="_blank">support.apple.com/kb/HT209218</a>.
-            </p>
-        
-            <p>
-                A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.
-            </p>
-        
-            <p>
-                Features are subject to change. Some features, applications, and services may not be available in all
-                regions or all languages.
-            </p>
+          <p>
+            1. Trade-in values will vary based on the condition, year, and
+            configuration of your eligible trade-in device. Not all devices are
+            eligible for credit. You must be at least the age of majority to be
+            eligible to trade in for credit or for an Apple Gift Card. Trade-in
+            value may be applied toward qualifying new device purchase, or added
+            to an Apple Gift Card. Actual value awarded is based on receipt of a
+            qualifying device matching the description provided when estimate
+            was made. Sales tax may be assessed on full value of a new device
+            purchase. In-store trade-in requires presentation of a valid photo
+            ID (local law may require saving this information). Offer may not be
+            available in all stores, and may vary between in-store and online
+            trade-in. Some stores may have additional requirements. Apple or its
+            trade-in partners reserve the right to refuse, cancel, or limit
+            quantity of any trade-in transaction for any reason. More details
+            are available from Apple’s trade-in partner for trade-in and
+            recycling of eligible devices. Restrictions and limitations may
+            apply.
+          </p>
+
+          <p>
+            To access and use all Apple Card features and products available
+            only to Apple Card users, you must add Apple Card to Wallet on an
+            iPhone or iPad that supports and has the latest version of iOS or
+            iPadOS. Apple Card is subject to credit approval, available only for
+            qualifying applicants in the United States, and issued by Goldman
+            Sachs Bank USA, Salt Lake City Branch.
+          </p>
+
+          <p>
+            Apple Payments Services LLC, a subsidiary of Apple Inc., is a
+            service provider of Goldman Sachs Bank USA for Apple Card and
+            Savings accounts. Neither Apple Inc. nor Apple Payments Services LLC
+            is a bank.
+          </p>
+
+          <p>
+            If you reside in the U.S. territories, please call Goldman Sachs at
+            877-255-5923 with questions about Apple Card.
+          </p>
+
+          <p>
+            Learn more about how Apple Card applications are evaluated at
+            <a href="" target="_blank">support.apple.com/kb/HT209218</a>.
+          </p>
+
+          <p>
+            
+            A subscription is required for Apple Arcade, Apple Fitness+, Apple
+            Music, and Apple TV+.
+
+          </p>
+
+          <p>
+
+            Features are subject to change. Some features, applications, and
+            services may not be available in all regions or all languages.
+
+          </p>
         </div>
-    
+
         <div class="divider"></div>
-    
+
         <div class="footer-grid">
-        
-        <div>
+          <div>
             <h4>Shop and Learn</h4>
             <ul>
-              <li>Store</li><li>Mac</li><li>iPad</li><li>iPhone</li>
-              <li>Watch</li><li>Vision</li><li>AirPods</li>
-              <li>TV & Home</li><li>AirTag</li><li>Accessories</li><li>Gift Cards</li>
+
+              <li>Store</li>
+              <li>Mac</li>
+              <li>iPad</li>
+              <li>iPhone</li>
+              <li>Watch</li>
+              <li>Vision</li>
+              <li>AirPods</li>
+              <li>TV & Home</li>
+              <li>AirTag</li>
+              <li>Accessories</li>
+              <li>Gift Cards</li>
+
             </ul>
-        
+
             <h4>Apple Wallet</h4>
             <ul>
-              <li>Wallet</li><li>Apple Card</li><li>Apple Pay</li><li>Apple Cash</li>
+
+              <li>Wallet</li>
+              <li>Apple Card</li>
+              <li>Apple Pay</li>
+              <li>Apple Cash</li>
+
             </ul>
-        </div>
-      
-        <div>
+          </div>
+
+          <div>
             <h4>Account</h4>
             <ul>
+
               <li>Manage Your Apple Account</li>
               <li>Apple Store Account</li>
               <li>iCloud.com</li>
+
             </ul>
-        
+
             <h4>Entertainment</h4>
             <ul>
-              <li>Apple One</li><li>Apple TV+</li><li>Apple Music</li>
-              <li>Apple Arcade</li><li>Apple Fitness+</li>
-              <li>Apple News+</li><li>Apple Podcasts</li>
-              <li>Apple Books</li><li>App Store</li>
+
+              <li>Apple One</li>
+              <li>Apple TV+</li>
+              <li>Apple Music</li>
+              <li>Apple Arcade</li>
+              <li>Apple Fitness+</li>
+              <li>Apple News+</li>
+              <li>Apple Podcasts</li>
+              <li>Apple Books</li>
+              <li>App Store</li>
+
             </ul>
-        </div>
-      
-        <div>
+          </div>
+
+          <div>
             <h4>Apple Store</h4>
             <ul>
-              <li>Find a Store</li><li>Genius Bar</li><li>Today at Apple</li>
-              <li>Group Reservations</li><li>Apple Camp</li>
-              <li>Apple Store App</li><li>Certified Refurbished</li>
-              <li>Apple Trade In</li><li>Financing</li>
+
+              <li>Find a Store</li>
+              <li>Genius Bar</li>
+              <li>Today at Apple</li>
+              <li>Group Reservations</li>
+              <li>Apple Camp</li>
+              <li>Apple Store App</li>
+              <li>Certified Refurbished</li>
+              <li>Apple Trade In</li>
+              <li>Financing</li>
               <li>Carrier Deals at Apple</li>
-              <li>Order Status</li><li>Shopping Help</li>
+              <li>Order Status</li>
+              <li>Shopping Help</li>
+
             </ul>
-        </div>
-      
-        <div>
+          </div>
+
+          <div>
             <h4>For Business</h4>
-            <ul><li>Apple and Business</li><li>Shop for Business</li></ul>
-        
+            <ul>
+
+              <li>Apple and Business</li>
+              <li>Shop for Business</li>
+
+            </ul>
+
             <h4>For Education</h4>
-            <ul><li>Apple and Education</li><li>Shop for K-12</li><li>Shop for College</li></ul>
-        
+            <ul>
+                
+              <li>Apple and Education</li>
+              <li>Shop for K-12</li>
+              <li>Shop for College</li>
+
+            </ul>
+
             <h4>For Healthcare</h4>
-            <ul><li>Apple in Healthcare</li><li>Health on Apple Watch</li></ul>
-        
+            <ul>
+
+              <li>Apple in Healthcare</li>
+              <li>Health on Apple Watch</li>
+
+            </ul>
+
             <h4>For Government</h4>
             <ul>
+
               <li>Apple and Government</li>
               <li>Shop for Veterans and Military</li>
               <li>Shop for State and Local Employees</li>
               <li>Shop for Federal Employees</li>
+
             </ul>
-        </div>
-      
-        <div>
+          </div>
+
+          <div>
             <h4>Apple Values</h4>
             <ul>
-              <li>Accessibility</li><li>Education</li><li>Environment</li>
-              <li>Inclusion and Diversity</li><li>Privacy</li>
-              <li>Racial Equity and Justice</li><li>Supply Chain Innovation</li>
+
+              <li>Accessibility</li>
+              <li>Education</li>
+              <li>Environment</li>
+              <li>Inclusion and Diversity</li>
+              <li>Privacy</li>
+              <li>Racial Equity and Justice</li>
+              <li>Supply Chain Innovation</li>
+
             </ul>
-        
+
             <h4>About Apple</h4>
             <ul>
-              <li>Newsroom</li><li>Apple Leadership</li>
-              <li>Career Opportunities</li><li>Investors</li>
-              <li>Ethics & Compliance</li><li>Events</li><li>Contact Apple</li>
-            </ul>
-        </div>
-      
-    </div>
-    
-    
-    
-        <div class="footer-bottom">
-          <p>More ways to shop: <a>Find an Apple Store</a> or <a>other retailer</a> near you. Or call <a>1-800-MY-APPLE</a>.</p>
-            <div class="divider"></div>
-            <div class="legal">
-                <span>Copyright © 2025 Apple Inc. All rights reserved.</span>
-                <div class="links">
-                <a>Privacy Policy</a><a>Terms of Use</a><a>Sales and Refunds</a>
-                <a>Legal</a><a>Site Map</a>
-                </div>
-                <span>Made By Afif Khan</span>
-            </div>
-        </div>
-    
-    </div>
-</footer>
-    
-</body>
-</html>
 
+              <li>Newsroom</li>
+              <li>Apple Leadership</li>
+              <li>Career Opportunities</li>
+              <li>Investors</li>
+              <li>Ethics & Compliance</li>
+              <li>Events</li>
+              <li>Contact Apple</li>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+
+            More ways to shop: <a>Find an Apple Store</a> or
+            <a>other retailer</a> near you. Or call <a>1-800-MY-APPLE</a>.
+
+          </p>
+          <div class="divider"></div>
+          <div class="legal">
+            
+            <span>Copyright © 2025 Apple Inc. All rights reserved.</span>
+            <div class="links">
+
+              <a>Privacy Policy</a><a>Terms of Use</a><a>Sales and Refunds</a>
+              <a>Legal</a><a>Site Map</a>
+              
+            </div>
+            <span>Made By Afif Khan</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
