@@ -178,23 +178,55 @@ body{
     text-align: center;
     background-image: url(./assets/gift-card.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .gift-card{
     font-size: 40px;
     padding-top: 40px;
+    font-weight: 600;
 }
 
 .card-2{
     text-align: center;
     background-image: url(./assets/ipad.jpg);
     background-position: center;
-    
+    background-size: cover;
+
 }
 
 .ipad{
     font-size: 40px;
     padding-top: 40px;
+    font-weight: 600;
+}
+
+.card-3{
+    text-align: center;
+    background-image: url(./assets/macbook.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.macbook{
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+.card-4{
+    text-align: center;
+    background-image: url(./assets/homepod-mini.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.homepod{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-weight: 600;
 }
 
 .content{
@@ -221,6 +253,27 @@ body{
 }
 
 @media (max-width:768px) {
+    .iphone{
+        background-image: url(./assets/iPhone-mobile-preview.jpg);
+        background-size: cover;
+    }
+
+    .headline{
+        padding-bottom: 5px;
+    }
+
+    .subhead{
+        padding-bottom: 5px;
+    }
+
+    .airpods{
+        background-image: url(./assets/airpods-mobile-preview.jpeg);
+        background-size:cover;
+
+    }
+    .bag-content{
+        padding-top: 20px;
+    }
     .logo{
         margin-left: 0;
         width: 100%;
@@ -256,7 +309,11 @@ body{
 
     .prod-grid{
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items: center;
+        
+        justify-items: stretch;
     }
+
+    .card-4{
+        padding-bottom: 400px;
+    }        
 }
