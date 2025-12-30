@@ -269,7 +269,7 @@ body{
 
     .airpods{
         background-image: url(./assets/airpods-small.jpg);
-        background-size:cover;
+        background-size:1000px;
 
     }
     .bag-content{
