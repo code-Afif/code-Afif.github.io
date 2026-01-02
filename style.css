@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .navbar {
   display: flex;
   background-color: #ffffff;
@@ -16,10 +17,12 @@
   z-index: 1000;
   width: 100%;
 }
+
 /*     Name : Afif Khan 
        Roll No.: 2025B03110167
        Branch : ECE
        Section : 1  */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif;
@@ -133,6 +136,7 @@ body {
   padding-left: 23px;
   padding-right: 23px;
 }
+
 .shop-iphone {
   background-color: white;
   border: #0071e3 solid 1px;
